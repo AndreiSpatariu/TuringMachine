@@ -1,0 +1,27 @@
+9 S0 S1 S2 S3 S4 S5 S6 S7 S8
+1 S8
+S0
+23
+S0 # S0 # R
+S0 0 S1 1 R
+S0 1 S2 0 R
+S1 # S7 # L
+S1 0 S1 1 R
+S1 1 S2 0 R
+S2 # S3 # R
+S2 0 S2 0 R
+S2 1 S2 1 R
+S3 # S5 1 L
+S3 1 S3 0 R
+S3 0 S4 1 R
+S4 # S5 # L
+S4 0 S4 0 R
+S4 1 S4 1 R
+S5 # S6 # L
+S5 0 S5 0 L
+S5 1 S5 1 L
+S6 # S0 # H
+S6 0 S6 0 L
+S6 1 S6 1 L
+S7 # S8 # H
+S7 1 S7 # L
